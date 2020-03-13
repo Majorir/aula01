@@ -13,7 +13,7 @@ header{
 
 body{
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 ul, a{
@@ -35,7 +35,7 @@ ul, a{
 }
 
 .space{
-  margin: 0 0 40px 0;
+  padding: 15px 0 40px 0;
 }
 
 #banner{
