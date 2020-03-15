@@ -5,18 +5,27 @@
   <title>Site01</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/master.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
 
 <header>
   <article class="container">
     <section id="logo"></section>
-  <nav>
-    <ul id="menu">
-      <a href="#home"><li>Home</li></a>
-      <a href="#servicos"><li>Serviços</li></a>
-      <a href="#sobre"><li>Sobre</li></a>
-      <a href="#contato"><li>Contato</li></a>
+  <nav class="menu">
+    <div id="mobile">
+      MENU
+    </div>
+    <script type="text/javascript">
+    $('#mobile').on('click', function(){
+      $('ul').toggle();
+    })
+    </script>
+    <ul>
+      <a href="#"><li>Home</li></a>
+      <a href="#"><li>Serviços</li></a>
+      <a href="#"><li>Sobre</li></a>
+      <a href="#"><li>Contato</li></a>
     </ul>
   </nav>
   </article>
