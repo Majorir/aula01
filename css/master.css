@@ -7,6 +7,7 @@ header{
   width: 100%;
   color: #fff;
   padding: 20px 0;
+  position: fixed;
 }
 
 body{
@@ -27,6 +28,14 @@ body{
 
 .menu li:hover{
   color: #09f;
+}
+
+nav{
+  float: right;
+}
+
+#logo{
+  width: 4%;
 }
 
 a{
@@ -71,13 +80,25 @@ a{
   font-size: 22px;
   text-transform: uppercase;
   padding: 50px 0 0 0;
+  color: #f00;
 }
 
 .subtitulo{
   font-size: 16px;
   color: #aaa;
   text-transform: uppercase;
-  padding: 20px 0 0 0;
+  padding: 20px 0 10px 0;
+}
+
+#image{
+  width: 400px;
+  height: 220px;
+  margin: 0 0 0 80px;
+  float: right;
+  background: url('../imgs/img1.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .button{
@@ -113,6 +134,19 @@ a{
   border-radius: 4px;
   border: 1px solid #000;
   margin: 0 0 4px 0;
+}
+
+#enviar{
+  width: 120px;
+  background: #000;
+  color: #fff;
+  border: 0;
+  padding: 15px;
+}
+
+#enviar:hover{
+  color: #f00;
+  cursor: pointer;
 }
 
 footer{
