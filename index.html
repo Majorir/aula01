@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/master.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/8c6e93330c.js"></script>
 </head>
 <body>
 
@@ -23,9 +24,9 @@
     </script>
     <ul>
       <a href="#"><li>Home</li></a>
-      <a href="#"><li>Serviços</li></a>
+      <a href="#servicos"><li>Serviços</li></a>
       <a href="#"><li>Sobre</li></a>
-      <a href="#"><li>Contato</li></a>
+      <a href="#contato"><li>Contato</li></a>
     </ul>
   </nav>
   </article>
@@ -35,26 +36,73 @@
 
 <section>
   <article class="container space">
-    <h1>Conteudo 1</h1>
+    <h1 class="titulo">Conteudo 1</h1>
+    <h2 class="subtitulo">Lorem ipsum dolor</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
   </article>
 
   <article class="container space">
-    <h1>Conteudo 2</h1>
+    <h1 class="titulo">Conteudo 2</h1>
+    <h2 class="subtitulo">Lorem ipsum dolor</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
   </article>
 
   <article class="container space">
-    <h1>Conteudo 2</h1>
+    <h1 class="titulo">Conteudo 3</h1>
+    <h2 class="subtitulo">Lorem ipsum dolor</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
       aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
   </article>
 </section>
+
+<section id="servicos">
+  <article class="container space">
+    <h1 class="titulo">Serviços</h1>
+    <h2 class="subtitulo">Confira o que fazemos</h2>
+
+    <article class="box">
+      <i class="fas fa-drafting-compass"></i>
+      <h1>Web Design</h1>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    </article>
+
+    <article class="box">
+      <i class="fas fa-atlas"></i>
+      <h1>Design Gráfico</h1>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    </article>
+
+    <article class="box">
+      <i class="fas fa-gamepad"></i>
+      <h1>Game Dev</h1>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    </article>
+
+  </article>
+  </section>
+
+  <section id="contato">
+
+    <article class="container space">
+      <h1 class="titulo">Contatos</h1>
+      <h2 class="subtitulo">Dúvidas? Fale conosco no formulário abaixo ou email: contato@contato.com</h2>
+
+      <h1>Formulario de Contato</h1>
+      <form class="" action="" method="post">
+        <input type="text" class="campo" name="nome" placeholder="Digite seu nome"><br>
+        <input type="text" class="campo" name="email" placeholder="nome@email.com"><br>
+        <input type="text" class="campo" name="telefone" placeholder="(11)9 1234-1234"><br>
+        <textarea name="mensagem" class="campo" placeholder="Digite sua mensagem"></textarea><br>
+        <input type="submit" name="enviar" value="Enviar!" >
+      </form>
+
+
+  </section>
 
 
 <footer>Site © 2020</footer>
