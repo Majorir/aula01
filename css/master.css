@@ -145,6 +145,14 @@ a{
   color: #fff;
 }
 
+input[type=text] {
+  color: #fff;
+}
+
+textarea{
+  color: #fff;
+}
+
 /* .campo, h1{
   color: #fff;
 } */
