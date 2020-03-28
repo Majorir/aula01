@@ -72,7 +72,10 @@ a{
 }
 
 #contato{
-  background: #eee;
+  background: url('../imgs/contatoimg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   margin: 60px 0 0 0;
 }
 
@@ -130,10 +133,27 @@ a{
 }
 
 .campo{
-  padding: 10px;
+  padding: 15px 500px 15px 20px;
+  text-align: left;
   border-radius: 4px;
   border: 1px solid #000;
   margin: 0 0 4px 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+::placeholder{
+  color: #fff;
+}
+
+/* .campo, h1{
+  color: #fff;
+} */
+
+#contato .subtitulo{
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 0 10px 0;
 }
 
 #enviar{
